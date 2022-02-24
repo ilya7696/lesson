@@ -59,11 +59,9 @@ public class Main {
         System.out.println(d);
 
 
-
-
     }
 
-  //      1. написать игру камень ножницы бумага.
+    //      1. написать игру камень ножницы бумага.
 /*                0.бесконечный цикл.
                 1. сопостовляем значение к н б .
                 2. сказать игроку порядок действий.
@@ -74,50 +72,59 @@ public class Main {
                 7. сама игра.*/
 
 
-
-    public static void main(String[] args){
-    int[] digits = {0, 1, 4, 3, 10, -1};
+    public static void main(String[] args) {
+        int[] digits = {0, 1, 4, 3, 10, -1};
         System.out.println(Arrays.toString(digits);
         Arrays.toString(digits);
         System.out.println(Arrays.toString(digits));
-    int position = Arrays.toString(digits, key: 10);
+        int position = Arrays.toString(digits, key:10);
         System.out.println(digits[position] == 10);
-    int[] destinationArray = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0,};
-        System.arraycopy(digits, srcPos: 1, destinationArray, destPost: 2, );
-        System.out.println(Arrays . tos4String(destinationArray));
+        int[] destinationArray = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0,};
+        System.arraycopy(digits, srcPos:1, destinationArray, destPost:2, );
+        System.out.println(Arrays.tos4String(destinationArray));
 
 
-    int[] swap ={2, 1};
-    int temp;
+        int[] swap = {2, 1};
+        int temp;
         System.out.println(ArrayString(swap));
-    temp = swap[0];
-    swap[1] = swap[0];
-    swap[0] = temp;
+        temp = swap[0];
+        swap[1] = swap[0];
+        swap[0] = temp;
         System.out.println(Arrays.toString(swap));
 
 
-    int func(){
-        return func();
+        int func () {
+            return func();
 
 
-        int[] quicksotrt(int[] arr. int low, int high){
-            if(arr.length <2){
-                return arr;
-            }
+            int[] quicksotrt ( int[] arr.int low, int high){
+                if (arr.length < 2) {
+                    return arr;
+                }
                 ...
-            quicksort(arr1,_);
-            quicksotrt(arr2,_);
+                quicksort(arr1, _);
+                quicksotrt(arr2, _);
+
+                byte digit = 1;
+                byte reversed = (byte) ~digit;
+                System.out.println(Integer.tobBinaryString(digit));
+                System.out.println(Integer.toBinaryString(reversed));
+
+                // --Игру угадай число --
+                // компьтер загадывает число от 1 до 100
+                // ждем ввод от пользователя число от 1 до 100 и 0
+                // если 0 выходим
+                // если больше 100 выводим сообщение об ошибке и продолжаем
+                // логика игры ...
+
+                String[] names = {"Alex",
+                }
+
+
             }
 
-
-    }
-
-        {
+            {
 
 
-
-
-
-
-    }
-}
+            }
+        }
